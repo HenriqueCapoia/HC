@@ -1,0 +1,85 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	background-color: #4F4F4F;
+}
+
+header{
+	padding:20px;
+	background-color: white;
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+.center{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1500px;
+	margin:0 auto;
+	padding:0 2%;
+	text-align: left;
+}
+.center a{
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 15px;
+}
+.texto{
+	margin-top:50px;
+}
+.texto h1{
+	font-size:25px;
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+.imagem1{
+	width:100%;
+	height: 680px;
+}
+.texto-sobre{
+	margin-top:30px;
+}
+.texto-sobre h2{
+	font-size:50px;
+	display:inline-block;
+	font-size: 1.2em;
+	vertical-align:	top;
+}
+.texto-sobre p{
+	font-size:50px;
+	display:inline-block;
+	font-size:1.1em;
+	margin-top: 20px;
+}
+.texto-sobre span{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.imagem2{
+	width: 100%;
+	height:500px;
+}
+.formas-contato{
+	font-size:50px;
+	text-align: center;
+	font-size:1.3em;
+	margin-top:30px;
+	font-weight: bold;
+}
+.texto-contato a,p{
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 15px;
+	font-size: 1.2em;
+}
+.imagem-contato{
+	width:100%;
+	height: 550px;
+}
